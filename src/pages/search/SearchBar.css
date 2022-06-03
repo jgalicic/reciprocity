@@ -1,0 +1,25 @@
+* {
+  --tomato: #C23F39;
+  --dkgreen: #4F5146;
+  --grey: #d6e6da;
+  --orange: #DDA05B;
+  --dkbrown: #2E2828;
+  --teal: #718f94;
+}
+
+
+.searchBar form {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input {
+  margin-left: 10px;
+  color: #333;
+}
+
+.searchIcon {
+  color: #888;
+  position: relative;
+  right: 30px;
+}

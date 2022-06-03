@@ -1,0 +1,9 @@
+.IngredientsContainer {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.IngredientsDropdownContainer input {
+  width: 50vw;
+}

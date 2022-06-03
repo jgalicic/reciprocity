@@ -1,0 +1,72 @@
+.recipeList {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.recipeList .card {
+  width: 31%;
+  background: #fff;
+  color: #333;
+  margin: 8px 8px 16px 8px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  /* position: relative; */
+  text-decoration: none;
+
+}
+
+
+.recipeList .card:hover {
+  transform: scale(1.02,1.02);
+}
+
+
+.recipeList .card h3 {
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.recipeTitleAndStatsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  min-height: 5.4em;
+}
+
+.recipeTitleAndStatsContainer h3, .recipeTitleAndStatsContainer  p {
+  padding: 2px;
+  text-align: center;
+}
+
+.recipeTitleAndStatsContainer  p {
+  font-size: 1.8vw;
+}
+
+.recipeImgContainer {
+  display: flex;
+  justify-content: center;
+  height: 10em;
+}
+
+
+.recipeImgContainer img { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.recipeList .recipeTime {
+  text-align: center;
+} 
+
+.recipeDescription {
+  padding: 4px;
+  overflow: hidden;
+  height: fit-content;
+}
