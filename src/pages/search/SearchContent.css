@@ -16,16 +16,12 @@
 }
 
 .recipeList .card {
-  width: 31%;
   background: #fff;
   color: #333;
-  margin: 8px 8px 16px 8px;
   border-radius: 5px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
-  /* position: relative; */
   text-decoration: none;
-
 }
 
 
@@ -80,3 +76,37 @@
   overflow: hidden;
   height: fit-content;
 }
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 0px) {
+  .recipeList .card {
+    width: 98%;
+    margin: 16px 16px 32px 16px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .recipeList .card {
+    width: 48%;
+    margin: 8px 8px 16px 8px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .recipeList .card {
+    width: 31.5%;
+    margin: 8px 8px 16px 8px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .recipeList .card {
+    width: 22.5%;
+    margin: 8px 8px 16px 8px;
+  }
+}
+

@@ -15,7 +15,7 @@ export default function Navbar({ searchTerm, setSearchTerm}) {
         <NavLink to="/create" className="navItem">Create</NavLink>
         <NavLink to="/ingredients" className="navItem">Ingredients</NavLink>
         <NavLink to="/favorites" className="navItem">Favorites</NavLink>
-        <NavLink to="/search" className="navItem"><SearchButton searchTerm={searchTerm} setSearchTerm={setSearchTerm}/></NavLink>
+        <NavLink to="/search" className="navItem navSearch"><SearchButton searchTerm={searchTerm} setSearchTerm={setSearchTerm}/></NavLink>
         
       </nav>
     </div>
