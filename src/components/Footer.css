@@ -1,0 +1,35 @@
+* {
+  --tomato: #C23F39;
+  --dkgreen: #4F5146;
+  --grey: #d6e6da;
+  --orange: #DDA05B;
+  --dkbrown: #2E2828;
+  --teal: #718f94;
+}
+
+
+.footer {
+  background: var(--tomato);
+  padding: 20px;
+}
+
+.footerItem {
+  color: var(--grey);
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .footer nav {
+    max-width: 1200px;
+  }
+}

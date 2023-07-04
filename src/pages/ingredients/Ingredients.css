@@ -1,0 +1,45 @@
+.IngredientsContainer {
+  width: 80%;
+  min-height: 80vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.IngredientsContainer h3 {
+  text-align: center;
+}
+
+.IngredientsTopRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+ /* .IngredientsSelectMenu {
+  outline: 1px solid blue;
+} */
+
+.SelectedIngredientsList {
+  display: flex;
+  width: 100%;
+  position: relative;
+  bottom: 45px;
+} 
+
+.SelectedIngredientCard {
+  width: 20%;
+  margin: 2%;
+}
+
+.SelectedIngredientClose {
+  position:relative;
+  top: 22px;
+  right: 3px;
+  float: right;
+  cursor: pointer;
+
+}
+
+.SelectedIngredientCard img {
+  max-width: 100%;
+} 

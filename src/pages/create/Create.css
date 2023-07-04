@@ -1,0 +1,134 @@
+* {
+  --tomato: #C23F39;
+  --dkolive: #4F5146;
+  --ltolive: #aeb19f;
+  --orange: #DDA05B;
+  --dkbrown: #2E2828;
+  --teal: #718f94;
+}
+
+h3, h4, h5 {
+  padding: 0;
+  margin: 20px 0 10px 0;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+.create {
+  color: var(--dkolive);
+  max-width: 480px;
+  margin: 60px auto;
+}
+
+ .recipeImgUrl, .recipeStepNum, .recipeIngredientsLabels {
+  display: block;
+  margin: 30px 0 10px;
+}
+.create p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.create-btn {
+  display: block;
+  font-size: 1em;
+  color: #fff;
+  padding: 8px 20px;
+  border: 0;
+  border-radius: 4px;
+  background-color: var(--teal);
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px auto;
+} 
+
+::placeholder {
+  color: #dfdfdf;
+  font-size: .9em;
+} 
+
+.recipeDescription {
+  height: 5em;
+}
+
+.ingredientsList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredientsListText {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.ingredientsList b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6em;
+  position: relative;
+  bottom: 4px;
+  right: 10px;
+}
+
+
+.ingredientQtyAndUnit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.ingredientUnit, .ingredientQty {
+  display: inline-block;
+  width: 8em;
+  height: 32pt;
+}
+
+
+
+
+.error {
+  color: var(--tomato);
+}
+
+.cookingTime {
+  width: 4em;
+  display: inline-block;
+} 
+
+.checkboxList {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.FormControlLabel {
+  height: 1.4em;
+  width: 10.4em;
+  margin: 3px 0;
+}
+
+.FormControlLabel .MuiTypography-root {
+  position: relative;
+  bottom: .15em;
+  right: .2em;
+}
+
+.difficultySliders {
+  display: flex;
+  justify-content: space-between;
+}
+
+.difficultySliders h3{
+  text-align: center;
+}
+
+.difficultySliders p{
+  font-size: 1.2em;
+  text-align: center;
+}

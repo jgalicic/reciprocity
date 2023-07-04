@@ -1,0 +1,102 @@
+.recipe {
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  background: #fff;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.recipe-title {
+  margin: 0;
+}
+
+.recipe-subtitle {
+  margin: 0;
+  padding: 5px;
+}
+
+.recipe ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: fit-content;
+  position: relative;
+  left: 16px;
+  padding: 0;
+  margin-top: 0;
+}
+.recipe li {
+  list-style-type: none;
+  margin-right: 10px;
+  color: #777;
+}
+
+.ingredientListUl {
+  outline: 1px solid #333;
+}
+
+.ingredientListItem {
+  display: flex;
+}
+
+.ingredientListSubItem {
+  margin: 8px 0;
+  display: inline-block;
+}
+
+.ingredientQty {
+ width: 80px;
+ display: flex;
+ flex-direction: row;
+ align-items:baseline;
+ justify-content: right;
+ position: relative;
+ bottom: 3px;
+
+}
+
+.ingredientQty {
+  font-size: 1.1em;
+  text-align: right;
+  margin-right: 2px;
+}
+
+.ingredientUnit {
+  width: fit-content;
+  text-align: left;
+  margin: 0 5px;
+  font-size: .6em;
+}
+
+.stepContainer {
+  display: flex;
+  width: 90%;
+  min-height: 12em;
+  margin: 0 auto;
+}
+
+.mainStepNumberCircle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 1.4em;
+  height: 1.4em;
+  background: #777;
+  color: #fff;
+  text-align: center;
+  margin-right: 10px;
+  position: relative;
+  bottom: 2px;
+  font-size: 1.1em;
+}
+
+.stepImageContainer {
+  flex-shrink: 3;
+}
+
+.subStepListItem {
+  text-align: start;
+  margin-bottom: 12px;
+  flex-grow: 3;
+}

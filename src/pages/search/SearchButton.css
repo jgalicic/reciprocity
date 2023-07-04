@@ -1,0 +1,14 @@
+
+.searchButton {
+  padding: 8px;
+  color: var(--grey);
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+}
+
+.searchButton:hover {
+  background: rgba(255,255,238,0.04);
+  border: 1px solid #ffe;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+{
+  "allergens": [""],
+  "celebrationTypes": [""],
+  "description": "",
+  "dietCategory": [""],
+  "difficulty": "0",
+  "freezeability": "",
+  "ingredients": {
+    "1": {
+      "unit": "",
+      "uuid": "",
+      "name": "",
+      "qty": ""
+    }
+  },
+  "leftoverability": "",
+  "mealTypes": [""],
+  "prepTimeActiveHours": "",
+  "prepTimeActiveMinutes": "",
+  "prepTimeTotalHours": "",
+  "prepTimeTotalMinutes": "",
+  "rating": "",
+  "recipeImgUrl": "",
+  "region": [""],
+  "servings": "",
+  "steps": {
+    "1": {
+      "imgUrlLg": "",
+      "mainStep": "",
+      "subSteps": [""]
+    }
+  },
+  "subtitle": "",
+  "tags": [],
+  "title": "",
+  "uuid": ""
+}

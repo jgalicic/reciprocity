@@ -1,0 +1,81 @@
+.ingredientsSection2 {
+  position: relative;
+  left: 16px;
+}
+
+.radioBtnRowContainer {
+  display: flex;
+  justify-content: space-around;
+} 
+
+.verticalDivider {
+  width: 2px;
+  min-height: 100%;
+  border-left: 1px solid black;
+  padding-right: 10px;
+}
+
+.nutritionInfoBox {
+  display: flex;  
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nutritionInfoBox div {
+  margin-left: 10px;
+}
+
+.ingredientCheckboxList {
+  height: fit-content;
+}
+
+.textureCheckboxList {
+  height: fit-content;
+}
+
+.ingredientButtonContainer {
+  display: flex;
+}
+
+.ingredientYesButton,
+.ingredientNoButton,
+.ingredientSubmitButton {
+  display: block;
+  font-size: .9em;
+  color: #fff;
+  padding: 8px 20px;
+  border: 0;
+  border-radius: 4px;
+  background-color: var(--teal);
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px auto;
+  max-width: 32.5%;
+} 
+
+.ingredientYesButton {
+  width: 45%;
+}
+
+.ingredientNoButton {
+  width: 45%;
+}
+
+.ingredientSliders {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredientSliders h3 {
+  text-align: center;
+}
+
+.ingredientSliders p {
+  font-size: 1em;
+  text-align: center;
+}
+
+.shelfLifeRow {
+ display: flex;
+ justify-content: space-around;
+}

@@ -1,0 +1,71 @@
+* {
+  --tomato: #C23F39;
+  --dkgreen: #4F5146;
+  --grey: #d6e6da;
+  --orange: #DDA05B;
+  --dkbrown: #2E2828;
+  --teal: #718f94;
+}
+
+.navbar {
+  background: var(--tomato);
+  padding: 20px;
+}
+
+.navItem {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+/* All nav items except first and last */
+.navItem:nth-child(n+2):nth-last-child(n+2) { 
+  margin-right: 30px;
+  position: relative;
+  left: 10px;
+}
+
+.navbar a.brand {
+  margin-right: auto;
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 0px) {
+  .navbar nav {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .navbar nav a:nth-child(1) {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .navSearch {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .navbar nav {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+  }
+
+  .navItem:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  /* All nav items except first and last */
+  .navItem:nth-child(n+2):nth-last-child(n+2) { 
+    margin-right: 15px;
+  }
+
+  .navSearch {
+    max-width: 400px;
+  }
+}
